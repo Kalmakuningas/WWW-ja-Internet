@@ -1,4 +1,4 @@
-# hello-world
+# WWW page
 This project is for learning purposes.
 
 I use most of my time listening music and even when im doing other stuff, i almost always listen music while doing them.
