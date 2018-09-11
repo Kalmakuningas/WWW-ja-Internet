@@ -2,7 +2,7 @@
 <html>
   <body>
     <h1> This is quite interesting isn't it? </h1>
-        <a href="https://github.com/Kalmakuningas/WWW-ja-Internet/edit/master/about.html" target="_blank"> about Page </a> <br>
+        <a href="https://kalmakuningas.github.io/WWW-ja-Internet/about.html" target="_blank"> about Page </a> <br>
     <p> This is nice paragraph, have you ever seen any better? </p>
     <img src="Images/Sketch.jpg" alt="Sketch image" >
     
