@@ -5,7 +5,7 @@
         <a href="" target="_blank" > About page </a>
         <a href="about.html" target="_blank" > About </a>
     <p> This is nice paragraph, have you ever seen any better? </p>
-    <img src="Images/Sketch.jpg" alt="Sketch image width="1920px" height="1080px" text-align="right">"
+    <img src="Images/Sketch.jpg" alt="Sketch image" width="1920px" height="1080px" text-align="right">"
     
     <ul>
       <li> Stuff</li>
