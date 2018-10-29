@@ -1,6 +1,14 @@
 	body {
 	background:#131313 url("https://raw.githubusercontent.com/Kalmakuningas/WWW-ja-Internet/Update/Images/bg2.jpg") repeat-x center;
 	}
+	#map {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	height: 500px;
+	width: 100%;
+	}
 	#wrap {
 	width:700px;
 	margin:0px auto 15px auto;
@@ -70,14 +78,6 @@
 		/*Content*/
 		#content {
 			background-color: #FFFFFF;
-		}
-		#map {
-			* {
-				margin: 0;
-				padding: 0;
-			}
-			height: 500px;
-			width: 100%;
 		}
 		#mainpage {
 			width:700px;
