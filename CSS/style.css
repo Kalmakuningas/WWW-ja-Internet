@@ -75,6 +75,15 @@
 			color:#FFFFFF;
 			background-color: #B42D0F;
 		}
+		#gallery {
+			<img src="BasaltRockFormationBoth001">
+			<img src="CeilingRocks001">
+			<img src="FloatingRocks001">
+			<img src="TreeAndRoots001">
+			<img src="TreeAndRoots003">
+			<img src="WaterPit001">
+		}
+		}
 		/*Content*/
 		#content {
 			background-color: #FFFFFF;
