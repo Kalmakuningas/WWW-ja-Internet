@@ -1,6 +1,34 @@
 <! DOCTYPE html>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <html>
+<head>
+		<script>
+			function validateForm()
+			{
+			if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
+			{
+			alert("Name must be filled out");
+			return false;
+			}
+			if (document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
+			{
+			alert("Phone must be filled out");
+			return false;
+			}
+			if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
+			{
+			alert("Email must be filled out");
+			return false;
+			}
+			return true;
+			}
+	</script>
+	<script>
+	if (navigator.geolocation) {
+		// do stuff
+	}
+	</script>
+	</head>
   <body>
         <link href="CSS/style.css" rel="stylesheet" type="text/css">
     
@@ -13,5 +41,82 @@
   	</ul>
 	</div>
 </div>
+	      <div id="header">
+	  
+	</div>
+	<div id="content">
+	<div id="mainpage">
+		<h1> All kinds of interesting information </h1>
+		<h2 id="about"> About </h2>
+		<h2 id="gallery"> Gallery </h2>
+		<h2 id="table"> How to make table in html pages? </h2>
+		
+		<table>
+		 <caption> Random Table </caption>
+		<tr>
+		<th colspan="2"> Name </th>
+		<th> Age </th>
+		</tr>
+		<td> Aki </td>
+		<td> Liimatainen </td>
+		<td> 22 </td>
+		</tr>
+		</tr>
+		<td> Heikki </td>
+		<td> Liimatainen </td>
+		<td> 62 </td>
+		</tr>
+		</tr>
+		<td> Samuel </td>
+		<td> Liimatainen </td>
+		<td> 12 </td>
+		</tr>
+		</table>
+		
+		</table id="t1">
+			<tr>
+			<th>SN</th>
+			<th> Course </th>
+			<th> Teacher Name </th>
+			</tr>
+			<tr>
+			<td> 1</tr>
+			<td> WWW Ja Internet </td>
+			<td> Deepak KC </td>
+			</tr>
+			</table>
+<script>
+				if(navigator.geolocation){
+				
+				}else {
+					alert('Update your browser');
+				}
+			</script>
+			<div id="map"></div>
+			
+			<script>
+				function initMap() {
+					var location = {lat: 64.222176, lng: 27.727850};
+					var map = new google.maps.Map(document.getElementById("map"),{
+						zoom: 4,
+						center: location
+					});
+					var marker = new google.maps.Marker({
+					position: location,
+					map: map
+					});
+				}
+			</script>
+			<script async defer src="https://maps.googleapis.com/maps/api/
+						 js?key=AIzaSyB2PLpETNMgk3tScTw7omoZ2jHhfapbhps&callback=initMap"></script>
+			<h2>Form Validation</h2>
+			
+			
+			<form name="myForm" onsubmit="return validateForm()" >
+			Name: <input type="text" name="name" /><br/>
+			Phone: <input type="text" name="phone" /><br/>
+			E-mail: <input type="text" name="email" /><br/>
+			<br> <input type="submit" value="Submit" />
+</form>
   </body>
 </html>
