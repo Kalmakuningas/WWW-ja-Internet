@@ -91,6 +91,12 @@
 		#canvas {
 			border:#666 1px solid;
 		}
+		#dragger {
+		width: 350px;
+		height: 70px;
+ 		padding: 10px;
+  		border: 1px solid #666;
+		}
 		#mainpage {
 			width:700px;
 			float:left;
