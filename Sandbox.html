@@ -175,15 +175,16 @@ function drop(ev) {
 			E-mail: <input type="text" name="email" /><br/>
 			<br> <input type="submit" value="Submit" />
 </form>
-	<button onclick="draw(0,0) ">Draw</button>
-	<br>
+
 	<canvas id="canvas" width="550" height="400"></canvas>
+	<br>
+	<button onclick="draw(0,0) ">Draw</button>
 	
 <p>Drag the image into the rectangle:</p>
 
 <div id="dragger" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <br>
-<img id="drag1" src="header.png" draggable="true" ondragstart="drag(event)" width="400" height="400">
+<img id="drag1" src="Images/WaterPit.jpg" draggable="true" ondragstart="drag(event)" width="600" height="400">
 
 </div>
 	</div>
