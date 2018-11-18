@@ -2,10 +2,6 @@
 	background:#000000 url(https://raw.githubusercontent.com/Kalmakuningas/WWW-ja-Internet/master/Images/WebPageBG.jpg) repeat-x center top;
 	}
 	#map {
-	* {
-		margin: 0;
-		padding: 0;
-	}
 	height: 500px;
 	width: 100%;
 	}
