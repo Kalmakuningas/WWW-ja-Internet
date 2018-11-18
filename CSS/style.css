@@ -27,7 +27,7 @@
 	}
 	table {
 		border-spacing: 5px;
-		background-color: #666;
+		background-color: #131313;
 	}
 	
 	table, th, td {
@@ -85,7 +85,7 @@
 			background-color: #FFFFFF;
 		}
 		#canvas {
-			border:#666 1px solid;
+			border:#131313 1px solid;
 		}
 		#dragger {
 		width: 350px;
