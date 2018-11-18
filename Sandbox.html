@@ -184,7 +184,7 @@ var options {
 zoom: 10,
 center: pos,
 mapTypeID: google.maps.MapTypeId.ROADMAP
-];
+};
 var map = new google.maps.Map(document.getElementById("map"), options);
 var marker = new google.maps.Marker({
 position: pos,
@@ -193,8 +193,10 @@ title: "User location"
 });
 var contentString = "<b>Timestamp:</b> " + parseTimestamp(position.timestamp) + "<br/><b>User location:</b> latitude..."
 var infowindow = new google.maps.InfoWindow({
-content: contentString});
+content: contentString
+});
 google.maps.event.addListener(marker, 'click', function() {
+infowindow.open(map,marker);
 });
 }
 function displayError(error) {
