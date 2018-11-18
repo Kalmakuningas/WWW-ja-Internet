@@ -1,10 +1,6 @@
 	body {
 	background:#000000 url(https://raw.githubusercontent.com/Kalmakuningas/WWW-ja-Internet/master/Images/WebPageBG.jpg) repeat-x center top;
 	}
-	#map {
-	height: 500px;
-	width: 100%;
-	}
 	#wrap {
 	width:700px;
 	margin:0px auto 15px auto;
@@ -92,7 +88,7 @@
   		border: 1px solid #131313;
 		}
 		#map	{
-		width: 500px;
+		width: 100%;
 		height: 500px;
 		padding: 15px;
 		border: 1px solid #131313;
