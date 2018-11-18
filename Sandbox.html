@@ -2,6 +2,15 @@
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <html>
 <head>
+	<style>
+		*{
+			margin: 0;
+			#map{
+				height: 500px;
+				width: 100%;
+			}
+		}
+	</style>
 		<script>
 			function validateForm()
 			{
@@ -125,7 +134,7 @@ function drop(ev) {
 			<Input type="radio" name="gender" value="female" checked> Female <br>
 			<Input type="radio" name="gender" value="other" checked> Other <br>
 			E-mail: <input type="email" name="email"> <br>
-			Location: <select name="map"><br>
+			Location: <><br>
 			<div id="map"></div><br>
 			Which profession you prefer or be already?: <select name="which">
 			<option> Artist </option>
