@@ -141,18 +141,19 @@ function drop(ev) {
 			<br/><br/>
 			<input type="submit" value="Submit">
 </form>
-				<p>Click below to get your coordinates:</p>
+				<p>Click below to get your position</p>
 				<button onclick="showLocation()">Click</button>
 				<script>
-					var x=document.getElementById("demo");
 					function showLocation() {
 						if (navigator.geolocation) {
 						navigator.geolocation.getCurrentPosition(showPosition);
-					} else(x.innerHTML="Geolocation is not supported by this browser.";)
+					} else {
+					alert("Geolocation is not supported by this browser.");
+				}
 				}
 					function showPosition(position) {
 						alert("Latitude: " + position.coords.latitude +
-						      "	Longitude: " + position.coords.longitude)
+						      "	Longitude: " + position.coords.longitude);
 					}
 				</script>
 				<form method="post" action="somescript.php">
