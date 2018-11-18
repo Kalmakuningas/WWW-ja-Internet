@@ -21,7 +21,7 @@
 	/* Header */
 	#header {
 		height:242px;
-			background:url("https://raw.githubusercontent.com/Kalmakuningas/WWW-ja-Internet/Update/Images/header.png") no-repeat left top;
+			background:url("https://raw.githubusercontent.com/Kalmakuningas/WWW-ja-Internet/master/Images/Web_page_Header.png") no-repeat left top;
 			clear: both;
 		}
 	#topbar {
@@ -93,13 +93,13 @@
 		width: 350px;
 		height: 70px;
  		padding: 10px;
-  		border: 1px solid #666;
+  		border: 1px solid #131313;
 		}
 		#map	{
 		width: 500px;
 		height: 500px;
 		padding: 15px;
-		border: 1px solid #666;
+		border: 1px solid #131313;
 		}
 		#mainpage {
 			width:700px;
