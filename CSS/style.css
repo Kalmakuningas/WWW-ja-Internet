@@ -62,7 +62,7 @@
 			text-align:center;
 		}
 		#topmenu a, #topmenu a:visited, #topmenu a:active {
-			color:##b32400;
+			color: #b32400;
 		}
 		#topmenu a:hover{
 			color:#313131;
@@ -70,7 +70,7 @@
 		}
 		#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
 			color:#e6e6e6;
-			background-color: #b32400;
+			background-color: #801a00;
 		}
 		#gallery {
 		
