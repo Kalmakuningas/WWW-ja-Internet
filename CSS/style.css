@@ -27,9 +27,11 @@
 	table, th, td {
 	border:1px solid F2F7F3;
 		padding: 15px;
+		color: #FFFFFF
 	}
 	th {
 	text-align: left;
+	color: #FFFFFF
 	}
 	
 	table#t1 {
@@ -44,7 +46,7 @@
 			padding:0 0px 0px 278px;
 			float: right;
 			width:415px;
-			background-color:black;
+			background-color: black;
 			position: fixed;
 		}
 		#topmenu li {
@@ -105,15 +107,15 @@
 			text-align: justify;
 		}
 		#mainpage blockquote {
-			backround:#efefef;
+			background-color: #efefef;
 			display:block;
 			margin:5px;
 			font:Georgia, "Times New Roman", Times, Serif;
 		font-style:italic;}
 		h1, h2, h3, h4, h5 {
-			color:#B32C0E;
+			color: #B32C0E;
 			font-weight:bold;
-			font-family: Arial, Helvetiva, sans-serif;
+			font-family: Arial, Helvetica, sans-serif;
 		}
 		#mainpage h1 {
 			font-size:px24;
