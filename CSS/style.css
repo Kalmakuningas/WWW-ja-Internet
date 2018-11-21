@@ -6,7 +6,7 @@
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:12px;
-	color: #B32C0E;
+	color: #b32400;
 	background: rgba( 19, 19, 19, 0.7);
 	padding: 5px 20px
 	}
@@ -17,7 +17,7 @@
 			clear: both;
 		}
 	#topbar {
-	height:78px;
+	height:70px;
 	}
 	table {
 		border-spacing: 5px;
@@ -25,7 +25,7 @@
 	}
 	
 	table, th, td {
-	border:1px solid F2F7F3;
+	border:1px solid b32400;
 		padding: 15px;
 		color: #FFFFFF
 	}
@@ -62,15 +62,15 @@
 			text-align:center;
 		}
 		#topmenu a, #topmenu a:visited, #topmenu a:active {
-			color:#FFFFFF;
+			color:##b32400;
 		}
 		#topmenu a:hover{
-			color:#B52E10;
-			background-color: #FFFFFF;
+			color:#313131;
+			background-color: #e6e6e6;
 		}
 		#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
-			color:#FFFFFF;
-			background-color: #B42D0F;
+			color:#e6e6e6;
+			background-color: #b32400;
 		}
 		#gallery {
 		
@@ -113,19 +113,19 @@
 			font:Georgia, "Times New Roman", Times, Serif;
 		font-style:italic;}
 		h1, h2, h3, h4, h5 {
-			color: #B32C0E;
+			color: #b32400;
 			font-weight:bold;
 			font-family: Arial, Helvetica, sans-serif;
 		}
 		#mainpage h1 {
 			font-size:px24;
-			color: #F2F7F3;
+			color: #b32400;
 		}
 		#mainpage h2 {
 			font-size:18px;
 			padding-top: 20px;
 			padding-bottom: 5px;
-			border-bottom: 1px solid #B52E10;
+			border-bottom: 1px solid #b32400;
 		}
 		#mainpage h3 {
 			font-size:20px;}
